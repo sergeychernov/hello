@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/sergeychernov/hello#readme",
   "bin": {
-    "hello": "./index.js"
+    "hello": "./index.js",
+    "onoff": "./onoff.js"
+  },
+  "dependencies": {
+    "onoff": "^6.0.3",
+    "onoff-debug": "^1.0.0"
   }
 }
