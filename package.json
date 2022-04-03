@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "onoff": "^6.0.3",
-    "onoff-debug": "^1.0.1"
+    "onoff-debug": "^1.2.3"
   }
 }
