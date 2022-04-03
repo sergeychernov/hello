@@ -19,10 +19,10 @@
   "homepage": "https://github.com/sergeychernov/hello#readme",
   "bin": {
     "hello": "./index.js",
-    "onoff": "--no-expose-wasm ./onoff.js"
+    "onoff": "./onoff.js"
   },
   "dependencies": {
     "onoff": "^6.0.3",
-    "onoff-debug": "^1.0.0"
+    "onoff-debug": "^1.0.1"
   }
 }
